@@ -1,0 +1,79 @@
+{
+  "environment": {
+    "sensitive": false,
+    "type": "string",
+    "value": "dev"
+  },
+  "fqdn": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "mongodb.opsify.online",
+      "redis.opsify.online",
+      "mysql.opsify.online",
+      "rabbitmq.opsify.online"
+    ]
+  },
+  "instance_ids": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "mongodb": "string",
+        "mysql": "string",
+        "rabbitmq": "string",
+        "redis": "string"
+      }
+    ],
+    "value": {
+      "mongodb": "i-0f94ac07a2c6715f0",
+      "mysql": "i-021750d993ec477a0",
+      "rabbitmq": "i-07ca1a98385660ee5",
+      "redis": "i-045bf7a0b851d6c06"
+    }
+  },
+  "private_ips": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "mongodb": "string",
+        "mysql": "string",
+        "rabbitmq": "string",
+        "redis": "string"
+      }
+    ],
+    "value": {
+      "mongodb": "172.31.30.107",
+      "mysql": "172.31.16.12",
+      "rabbitmq": "172.31.28.110",
+      "redis": "172.31.26.109"
+    }
+  },
+  "public_ips": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "mongodb": "string",
+        "mysql": "string",
+        "rabbitmq": "string",
+        "redis": "string"
+      }
+    ],
+    "value": {
+      "mongodb": "54.242.0.15",
+      "mysql": "52.201.248.232",
+      "rabbitmq": "54.146.252.200",
+      "redis": "34.203.212.59"
+    }
+  }
+}
